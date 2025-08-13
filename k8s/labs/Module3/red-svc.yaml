@@ -5,7 +5,7 @@ metadata:
 spec:
   ports:
     - port: 8100
-  targetPort: 8080
+      targetPort: 8080
       name: web
   selector:
     app: ingress-red
